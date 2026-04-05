@@ -1,0 +1,20 @@
+{
+    "name": "manuelitoda/php-no-framework",
+    "description": "Una manera simple de utilizar PHP sin frameworks.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ManuelitoDA\\PhpNoFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manuelitoda",
+            "email": "damanuelito0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/dotenv": "^7.4"
+    }
+}
